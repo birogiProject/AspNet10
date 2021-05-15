@@ -1,6 +1,8 @@
-﻿<%@ Page Title="Home Page" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.vb" Inherits="AspNet10._Default" %>
+﻿<%@ Page Title="Home Page" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.vb" Inherits="AspNet10._Default" Trace="true" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+
+    <div>ASP.NETは正常に動作しています。</div>
 
     <div class="jumbotron">
         <h1>ASP.NET</h1>
@@ -38,5 +40,7 @@
             </p>
         </div>
     </div>
+
+
 
 </asp:Content>

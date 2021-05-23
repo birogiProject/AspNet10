@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Hello
+Partial Public Class FileUpload
     
     '''<summary>
     '''form1 コントロール。
@@ -23,74 +23,47 @@ Partial Public Class Hello
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
     
     '''<summary>
-    '''txtName コントロール。
+    '''upFile コントロール。
     '''</summary>
     '''<remarks>
     '''自動生成されたフィールド。
     '''変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
     '''</remarks>
-    Protected WithEvents txtName As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents upFile As Global.System.Web.UI.WebControls.FileUpload
     
     '''<summary>
-    '''btnSend コントロール。
+    '''rdoOver コントロール。
     '''</summary>
     '''<remarks>
     '''自動生成されたフィールド。
     '''変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
     '''</remarks>
-    Protected WithEvents btnSend As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents rdoOver As Global.System.Web.UI.WebControls.RadioButtonList
     
     '''<summary>
-    '''lblGreet コントロール。
+    '''btnUpload コントロール。
     '''</summary>
     '''<remarks>
     '''自動生成されたフィールド。
     '''変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
     '''</remarks>
-    Protected WithEvents lblGreet As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents btnUpload As Global.System.Web.UI.WebControls.Button
     
     '''<summary>
-    '''rdoBtnLst1 コントロール。
+    '''ltrResult コントロール。
     '''</summary>
     '''<remarks>
     '''自動生成されたフィールド。
     '''変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
     '''</remarks>
-    Protected WithEvents rdoBtnLst1 As Global.System.Web.UI.WebControls.RadioButtonList
+    Protected WithEvents ltrResult As Global.System.Web.UI.WebControls.Literal
     
     '''<summary>
-    '''chks コントロール。
+    '''HiddenField1 コントロール。
     '''</summary>
     '''<remarks>
     '''自動生成されたフィールド。
     '''変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
     '''</remarks>
-    Protected WithEvents chks As Global.System.Web.UI.WebControls.CheckBoxList
-    
-    '''<summary>
-    '''CheckBox1 コントロール。
-    '''</summary>
-    '''<remarks>
-    '''自動生成されたフィールド。
-    '''変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
-    '''</remarks>
-    Protected WithEvents CheckBox1 As Global.System.Web.UI.WebControls.CheckBox
-    
-    '''<summary>
-    '''DropDownList1 コントロール。
-    '''</summary>
-    '''<remarks>
-    '''自動生成されたフィールド。
-    '''変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
-    '''</remarks>
-    Protected WithEvents DropDownList1 As Global.System.Web.UI.WebControls.DropDownList
-    
-    '''<summary>
-    '''ListBox2 コントロール。
-    '''</summary>
-    '''<remarks>
-    '''自動生成されたフィールド。
-    '''変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
-    '''</remarks>
-    Protected WithEvents ListBox2 As Global.System.Web.UI.WebControls.ListBox
+    Protected WithEvents HiddenField1 As Global.System.Web.UI.WebControls.HiddenField
 End Class

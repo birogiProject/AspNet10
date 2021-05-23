@@ -227,6 +227,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Day01\FileUpload.aspx" />
     <Content Include="Day01\Hello.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -405,6 +406,13 @@
     </Compile>
     <Compile Include="Contact.aspx.vb">
       <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Day01\FileUpload.aspx.designer.vb">
+      <DependentUpon>FileUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Day01\FileUpload.aspx.vb">
+      <DependentUpon>FileUpload.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Day01\Hello.aspx.designer.vb">
